@@ -73,7 +73,7 @@ to AWX login page.
 $ minikube service awx-service -n ${NAMESPACE} 
 ```
 Output will be something like this:
-```bash
+```
 |-----------|-------------|-------------|--------------|
 | NAMESPACE |    NAME     | TARGET PORT |    URL       |
 |-----------|-------------|-------------|--------------|
@@ -100,7 +100,7 @@ $ minikube tunnel awx-service
 ```
 
 Output will be something like this:
-```bash
+```
 ✅  Tunnel successfully started
 📌  NOTE: Please do not close this terminal as this process must stay alive for the tunnel to be accessible ...
 ```
@@ -110,7 +110,7 @@ Open a new terminal, and get the URL
 $ minikube service awx-service --url -n ${NAMESPACE}
 ```
 Output will be something like this:
-```bash
+```
 😿service awx/awx-service has no node port
 http://127.0.0.1:52284
 ❗Because you are using a Docker driver on darwin, the terminal needs to be open to run it.
