@@ -7,7 +7,8 @@ We are running ...
 * `minikube` 1.26.1
 
 This document is based on Heikki Koivisto's ["Install AWX on mac" YouTube video](https://www.youtube.com/watch?v=yFWQBAPrWQE).
-I ran into a few gotchas, so I decided to put up these notes.
+I ran into a few gotchas, so I decided to put up these notes. One notable difference is that Heikki uses the [`hyperkit`](https://github.com/moby/hyperkit#hyperkit) driver, whereas I am using docker. As of this writing, `hyperkit` does not have
+M1 support.
 
 ### Start suitably-sized cluster
 
